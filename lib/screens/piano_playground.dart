@@ -9,7 +9,9 @@ class PianoPlayGround extends StatelessWidget {
 
   //Extract and refactor codes avoid repeated codes
   Expanded playKey() {
-    return Expanded();
+    return Expanded(
+      child: FlatButton(),
+    );
   }
 
   @override
