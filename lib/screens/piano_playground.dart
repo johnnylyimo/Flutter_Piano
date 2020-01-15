@@ -38,6 +38,12 @@ class PianoPlayGround extends StatelessWidget {
       body: SafeArea(
           child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          playKey(
+            colorName: Colors.pink,
+            num: 1,
+          )
+        ],
       )),
     );
   }
