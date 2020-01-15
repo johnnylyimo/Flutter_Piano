@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 
 class PianoPlayGround extends StatelessWidget {
+  void playSound(int num) {}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
