@@ -29,7 +29,9 @@ class _SplashScreenState extends State<SplashScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Text('Play Piano'),
-          FlutterLogo(),
+          FlutterLogo(
+            size: 300,
+          ),
           Text(
             'Enjoy your Music',
           )
