@@ -8,7 +8,7 @@ class PianoPlayGround extends StatelessWidget {
   }
 
   //Extract and refactor codes avoid repeated codes
-  Expanded playKey() {
+  Expanded playKey({Color colorName, int num}) {
     return Expanded(
       child: FlatButton(),
     );
