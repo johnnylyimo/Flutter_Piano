@@ -27,6 +27,9 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+          Text('Play Piano'),
+        ],
       ),
     );
   }
