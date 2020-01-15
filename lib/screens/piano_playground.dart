@@ -4,6 +4,7 @@ import 'package:audioplayers/audio_cache.dart';
 class PianoPlayGround extends StatelessWidget {
   void playSound(int num) {
     final player = AudioCache();
+    player.play('note$num.wav');
   }
 
   @override
