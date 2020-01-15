@@ -40,9 +40,13 @@ class PianoPlayGround extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           playKey(
+            colorName: Colors.brown,
+            num: 2,
+          ),
+          playKey(
             colorName: Colors.pink,
             num: 1,
-          )
+          ),
         ],
       )),
     );
