@@ -5,7 +5,9 @@ class PianoPlayGround extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Piano'),
+        title: Center(
+          child: Text('Piano'),
+        ),
       ),
     );
   }
