@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_piano/screens/piano_playground.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // TODO: implement initState
     super.initState();
 
-    Future.delayed(Duration(seconds: 3));
+    Future.delayed(Duration(seconds: 3), () {});
   }
 
   @override
