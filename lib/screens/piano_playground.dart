@@ -13,7 +13,10 @@ class PianoPlayGround extends StatelessWidget {
     return Expanded(
       child: FlatButton(
         color: colorName,
-        child: Text('Touch to Play'),
+        child: Text(
+          'Touch to Play',
+          style: TextStyle(fontSize: 12.0),
+        ),
         onPressed: () {
           playSound(num);
         },
