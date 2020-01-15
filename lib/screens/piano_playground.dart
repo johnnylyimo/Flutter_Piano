@@ -10,6 +10,7 @@ class PianoPlayGround extends StatelessWidget {
           child: Text('Piano'),
         ),
       ),
+      body: SafeArea(),
     );
   }
 }
