@@ -7,6 +7,11 @@ class PianoPlayGround extends StatelessWidget {
     player.play('note$num.wav');
   }
 
+  //Extract and refactor codes avoid repeated codes
+  Expanded playKey() {
+    return Expanded();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
