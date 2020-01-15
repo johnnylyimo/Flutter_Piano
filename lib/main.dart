@@ -8,6 +8,7 @@ class PianoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Piano App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
