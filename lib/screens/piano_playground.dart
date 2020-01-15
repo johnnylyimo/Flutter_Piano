@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 
@@ -27,7 +28,10 @@ class PianoPlayGround extends StatelessWidget {
           child: Text('Piano'),
         ),
       ),
-      body: SafeArea(child: Column()),
+      body: SafeArea(
+          child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+      )),
     );
   }
 }
