@@ -27,11 +27,7 @@ class PianoPlayGround extends StatelessWidget {
           child: Text('Piano'),
         ),
       ),
-      body: SafeArea(
-        child: FlatButton(
-          onPressed: () {},
-        ),
-      ),
+      body: SafeArea(child: Column()),
     );
   }
 }
