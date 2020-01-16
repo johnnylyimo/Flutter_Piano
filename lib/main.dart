@@ -9,7 +9,9 @@ class PianoApp extends StatelessWidget {
       fontSize: 30,
       color: Colors.white,
     ),
-    display1: TextStyle(),
+    display1: TextStyle(
+      fontSize: 24,
+    ),
   );
 
   @override
