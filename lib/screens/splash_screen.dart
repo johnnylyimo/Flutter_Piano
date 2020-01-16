@@ -28,7 +28,10 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Text('Play Piano'),
+          Text(
+            'Play Piano',
+            style: Theme.of(context).textTheme.display1,
+          ),
           FlutterLogo(
             colors: Colors.orange,
             size: 300,
