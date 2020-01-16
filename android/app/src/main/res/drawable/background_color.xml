@@ -8,11 +8,7 @@
                 android:endColor="#ffddddda"
                 android:angle ="180"
                 />
-
-
-
         </shape>
-
     </item>
 
 </selector>
