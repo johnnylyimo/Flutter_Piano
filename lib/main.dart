@@ -18,6 +18,7 @@ class PianoApp extends StatelessWidget {
       title: 'Piano App',
       theme: ThemeData(
         textTheme: textTheme,
+        primaryColor: Colors.orange,
         primarySwatch: Colors.blue,
       ),
       home: SplashScreen(),
