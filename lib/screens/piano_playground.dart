@@ -1,6 +1,6 @@
+import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audio_cache.dart';
 
 class PianoPlayGround extends StatelessWidget {
   void playSound(int num) {
@@ -32,7 +32,10 @@ class PianoPlayGround extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('Piano'),
+          child: Text(
+            'Piano',
+            style: Theme.of(context).textTheme.title,
+          ),
         ),
       ),
       body: SafeArea(
