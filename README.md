@@ -1,16 +1,12 @@
-# flutter_piano
+# A Piano App
 
-A new Flutter Piano application.
+A Piano application developed in Flutter for musicians, they gonna like this app.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is so great for Flutter beginners who want to know how to use Flutter packages. In this app we use audioplayers package, that allow to play local audio files. Not only that but also in this app you will learn FlatButton, function and much more.
 
-A few resources to get you started if this is your first Flutter project:
+print (" SHARING IS CARING ")
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+System.out.println ( " LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ") ;
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
