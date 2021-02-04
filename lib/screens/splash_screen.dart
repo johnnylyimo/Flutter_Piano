@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
             style: Theme.of(context).textTheme.display1,
           ),
           FlutterLogo(
-            colors: Colors.orange,
+            textColor: Colors.orange,
             size: 300,
           ),
           Text(
