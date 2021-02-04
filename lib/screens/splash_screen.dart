@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           Text(
             'Enjoy your Music',
-            style: Theme.of(context).textTheme.display1,
+            style: Theme.of(context).textTheme.headline2,
           )
         ],
       ),
