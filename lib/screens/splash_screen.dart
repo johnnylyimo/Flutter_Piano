@@ -30,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         children: <Widget>[
           Text(
             'Play Piano',
-            style: Theme.of(context).textTheme.display1,
+            style: Theme.of(context).textTheme.headline2,
           ),
           FlutterLogo(
             textColor: Colors.orange,
