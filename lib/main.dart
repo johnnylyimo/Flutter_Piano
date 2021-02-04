@@ -5,11 +5,11 @@ void main() => runApp(PianoApp());
 
 class PianoApp extends StatelessWidget {
   final TextTheme textTheme = TextTheme(
-    headline1:TextStyle(
+    headline1: TextStyle(
       fontSize: 30,
       color: Colors.white,
     ),
-    display1: TextStyle(
+    headline2: TextStyle(
       fontSize: 24,
     ),
   );
