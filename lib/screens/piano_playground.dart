@@ -34,7 +34,7 @@ class PianoPlayGround extends StatelessWidget {
         title: Center(
           child: Text(
             'Piano',
-            style: Theme.of(context).textTheme.title,
+            style: Theme.of(context).textTheme.headline1,
           ),
         ),
       ),
